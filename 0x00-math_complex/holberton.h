@@ -2,15 +2,15 @@
 #define _HOLBERTON_H_
 
 /**
- * struct complex - structure containing two doubles
+ * struct complex_t - structure containing two doubles
  * @re: part real.
  * @im: part imaginary.
  */
 
 typedef struct complex_t
 {
-    double re;
-    double im;
+	double re;
+	double im;
 
 } complex;
 
