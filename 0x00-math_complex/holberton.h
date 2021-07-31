@@ -1,6 +1,7 @@
 #ifndef _HOLBERTON_H_
 #define _HOLBERTON_H_
 
+
 /**
  * struct complex_t - structure containing two doubles
  * @re: part real.
@@ -18,5 +19,6 @@ typedef struct complex_t
 
 void display_complex_number(complex c);
 complex conjugate(complex c);
+double modulus(complex c);
 
 #endif
