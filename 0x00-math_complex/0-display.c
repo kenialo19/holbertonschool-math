@@ -39,6 +39,15 @@ void display_complex_number(complex c)
 			h = '-';
 			c.im = c.im * -1;
 		}
+		if (c.im == 1)
+		{
+			printf("%.0f %c i\n", c.re, h);
+		}
+		else if (c.im == -1)
+		{
+			printf("%.0f %c i\n", c.re, h);
+		}
+		else 
 		printf("%.0f %c %.0fi\n", c.re, h, c.im);
 	}
 }
